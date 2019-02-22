@@ -1,0 +1,287 @@
+                /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+                
+                html,
+                body,
+                div,
+                span,
+                applet,
+                object,
+                iframe,
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6,
+                p,
+                blockquote,
+                pre,
+                a,
+                abbr,
+                acronym,
+                address,
+                big,
+                cite,
+                code,
+                del,
+                dfn,
+                em,
+                img,
+                ins,
+                kbd,
+                q,
+                s,
+                samp,
+                small,
+                strike,
+                strong,
+                sub,
+                sup,
+                tt,
+                var,
+                b,
+                u,
+                i,
+                center,
+                dl,
+                dt,
+                dd,
+                ol,
+                ul,
+                li,
+                fieldset,
+                form,
+                label,
+                legend,
+                table,
+                caption,
+                tbody,
+                tfoot,
+                thead,
+                tr,
+                th,
+                td,
+                article,
+                aside,
+                canvas,
+                details,
+                embed,
+                figure,
+                figcaption,
+                footer,
+                header,
+                hgroup,
+                menu,
+                nav,
+                output,
+                ruby,
+                section,
+                summary,
+                time,
+                mark,
+                audio,
+                video {
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    font-size: 100%;
+                    font: inherit;
+                    vertical-align: baseline;
+                }
+                /* HTML5 display-role reset for older browsers */
+                
+                article,
+                aside,
+                details,
+                figcaption,
+                figure,
+                footer,
+                header,
+                hgroup,
+                menu,
+                nav,
+                section {
+                    display: block;
+                }
+                
+                body {
+                    line-height: 1;
+                }
+                
+                ol,
+                ul {
+                    list-style: none;
+                }
+                
+                blockquote,
+                q {
+                    quotes: none;
+                }
+                
+                blockquote:before,
+                blockquote:after,
+                q:before,
+                q:after {
+                    content: '';
+                    content: none;
+                }
+                
+                table {
+                    border-collapse: collapse;
+                    border-spacing: 0;
+                }
+                
+                html {
+                    background-color: rgb(240, 244, 247);
+                }
+                /*處理整個網頁介面*/
+                
+                .hero-base {
+                    background: #424242;
+                    height: 300px;
+                    margin: 0px auto;
+                }
+                
+                .container {
+                    width: 100%;
+                    height: 100%;
+                    margin: 0px auto;
+                    position: relative;
+                }
+                /*處理icon位置*/
+                
+                .icon {
+                    float: left;
+                    margin-top: 92px;
+                    margin-left: 18%;
+                }
+                /*處理身高體重的位置*/
+                
+                .input {
+                    float: left;
+                    margin-top: 70px;
+                    margin-left: 13%;
+                    ;
+                }
+                /*處理身高體重的字體和顏色*/
+                
+                .input h2 {
+                    font-size: 18px;
+                    color: #FFD366;
+                }
+                /*處理輸入框的設計*/
+                
+                .hei,
+                .wid {
+                    background: rgba(255, 255, 255, 0.18);
+                    border: 2px solid #FFD366;
+                    border-radius: 10px;
+                    font-size: 24px;
+                    color: rgba(255, 255, 255, 0.50);
+                    margin: 10px;
+                }
+                /*處理按鈕的位置、設計*/
+                
+                .send {
+                    float: left;
+                    margin-top: 80px;
+                    margin-left: 10%;
+                    width: 120px;
+                    height: 120px;
+                    border: 1px solid #FFD366;
+                    background-color: transparent;
+                    background-image: none;
+                    border-color: #ffc107;
+                    border-radius: 50%;
+                }
+                
+                .send:hover {
+                    background: #FFD366;
+                    box-shadow: 0 1px 6px 3px rgba(255, 195, 49, 0.64);
+                    font-size: 24px;
+                    cursor: pointer;
+                }
+                
+                .send h1:hover {
+                    color: #424242;
+                    text-align: center;
+                    line-height: 110px;
+                }
+                
+                .send h1 :active {
+                    color: #424242;
+                    text-align: center;
+                    line-height: 110px;
+                }
+                
+                .send h1 {
+                    font-size: 24px;
+                    color: #ffc107;
+                    text-align: center;
+                    line-height: 110px;
+                }
+                /*處理BMI紀錄*/
+                
+                .center {
+                    clear: both;
+                    position: relative;
+                    text-align: center;
+                    top: 100px;
+                    margin: 30px;
+                    padding-bottom: 90px;
+                }
+                
+                .center h1 {
+                    font-size: 24px;
+                    color: #424242;
+                }
+                
+                .list li {
+                    background-color: #FFFFFF;
+                    margin: 8px auto;
+                    width: 500px;
+                    padding: 10px;
+                }
+                
+                li span {
+                    padding-right: 7px;
+                    font-size: 12px;
+                    color: #424242;
+                }
+                
+                li b {
+                    font-weight: bold;
+                    position: relative;
+                    left: -50px;
+                }
+                
+                li strong {
+                    font-size: 20px;
+                    color: #4A4A4A;
+                    padding-right: 15px;
+                }
+                /*處理清除歷史紀錄*/
+                
+                .del a {
+                    line-height: 100px;
+                    text-decoration: none;
+                }
+                /*處理底部*/
+                
+                .footer {
+                    background-color: #424242;
+                    height: 92px;
+                    width: 100%;
+                    margin-top: 105px;
+                    text-align: center;
+                    position: relative;
+                }
+                
+                .footer img {
+                    height: 55px;
+                    width: 55px;
+                    padding-top: 18px;
+                }
